@@ -25,10 +25,6 @@ const nextConfig: NextConfig = {
     }
   },
   reactCompiler: true,
-  // For Next.js 16.x
-  experimental: {
-    appDir: true,
-  },
 };
 
 export default nextConfig;
