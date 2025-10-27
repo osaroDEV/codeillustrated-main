@@ -7,19 +7,19 @@ const nextConfig: NextConfig = {
       fallback: [
         {
           source: '/labs',
-          destination: 'https://your-labs-site.vercel.app/labs',
+          destination: 'https://codeillustrated-studios.vercel.app/labs',
         },
         {
           source: '/labs/:path*',
-          destination: 'https://your-labs-site.vercel.app/labs/:path*',
+          destination: 'https://codeillustrated-studios.vercel.app/labs/:path*',
         },
         {
           source: '/academy',
-          destination: 'https://your-academy-site.vercel.app/academy',
+          destination: 'https://codeillustrated-school.vercel.app/academy',
         },
         {
           source: '/academy/:path*',
-          destination: 'https://your-academy-site.vercel.app/academy/:path*',
+          destination: 'https://codeillustrated-school.vercel.app/academy/:path*',
         },
       ],
     }
