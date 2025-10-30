@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Woodmart - Premium Template",
-  description: "Woodmart parallax demo premium template",
+  title: "Code Illustrated",
+  description: "Master programming through visual learning and hands-on practice",
 };
 
 export default function RootLayout({
