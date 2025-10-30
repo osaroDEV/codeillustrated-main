@@ -38,13 +38,13 @@ export default function HomePage() {
 
           <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
             <p className="text-white/80 text-lg mb-4 font-light italic tracking-wide">
-              Master programming through visual learning
+              Where Education Meets Innovation
             </p>
             <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-              LEARN. CODE.<br />VISUALIZE.
+              TRANSFORM YOUR<br />DIGITAL VISION
             </h2>
             <p className="text-white/90 text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
-              Master programming through visual learning and hands-on practice
+              Learn to code with our comprehensive online school or partner with our expert development agency to bring your ideas to life
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -52,13 +52,13 @@ export default function HomePage() {
                 href="/academy"
                 className="inline-flex items-center justify-center px-10 py-4 bg-white text-slate-900 font-semibold text-base hover:bg-slate-100 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide min-w-[180px]"
               >
-                Explore Academy
+                Start Learning
               </Link>
               <Link
                 href="/labs"
                 className="inline-flex items-center justify-center px-10 py-4 bg-slate-900 text-white font-semibold text-base border-2 border-white hover:bg-white hover:text-slate-900 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide min-w-[180px]"
               >
-                Try Labs
+                Build With Us
               </Link>
             </div>
           </div>
