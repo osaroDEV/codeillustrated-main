@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
       fallback: [
         {
           source: '/labs',
-          destination: 'https://codeillustrated-studios.vercel.app/labs',
+          destination: 'https://codeillustrated-studio.vercel.app/labs',
         },
         {
           source: '/labs/:path*',
