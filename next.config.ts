@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
         },
         {
           source: '/labs/:path*',
-          destination: 'https://codeillustrated-studios.vercel.app/labs/:path*',
+          destination: 'https://codeillustrated-studio.vercel.app/labs/:path*',
         },
         {
           source: '/academy',
