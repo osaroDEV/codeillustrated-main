@@ -56,14 +56,14 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#academy" className="group px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50">
+            <Link href="/academy" className="group px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50">
               Explore Academy
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
-            <a href="#agency" className="group px-8 py-4 bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105">
+            </Link>
+            <Link href="/labs" className="group px-8 py-4 bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105">
               View Agency Services
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -223,12 +223,12 @@ export default function LandingPage() {
             Whether you want to learn or build, we're here to help you succeed.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#academy" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition-all duration-300 hover:scale-105">
+            <Link href="/academy" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition-all duration-300 hover:scale-105">
               Join Academy
-            </a>
-            <a href="#agency" className="px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium transition-all duration-300 hover:scale-105">
+            </Link>
+            <Link href="/labs" className="px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium transition-all duration-300 hover:scale-105">
               Hire Agency
-            </a>
+            </Link>
           </div>
         </div>
       </section>
