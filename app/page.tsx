@@ -69,7 +69,7 @@ export default function LandingPage() {
     playsInline
     className="absolute inset-0 w-full h-full object-cover"
   >
-    <source src="/vid.mp4" type="video/mp4" />
+    <source src="/vids.mp4" type="video/mp4" />
   </video>
 
   {/* Overlay (for readability) */}
@@ -78,7 +78,7 @@ export default function LandingPage() {
   {/* Content */}
   <div className="relative container mx-auto px-6 py-20 md:py-32">
     <div className="text-center max-w-5xl mx-auto">
-      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 mb-8 bg-white/90 backdrop-blur">
+      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 mb-8 bg-white/70 backdrop-blur">
         <Sparkles className="w-4 h-4" />
         <span className="text-sm">Building the future of digital excellence</span>
       </div>
