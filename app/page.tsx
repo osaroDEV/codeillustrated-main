@@ -69,7 +69,7 @@ export default function LandingPage() {
     playsInline
     className="absolute inset-0 w-full h-full object-cover"
   >
-    <source src="/vids.mp4" type="video/mp4" />
+    <source src="/bg-video.mp4" type="video/mp4" />
   </video>
 
   {/* Overlay (for readability) */}
