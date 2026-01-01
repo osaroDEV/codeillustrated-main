@@ -73,7 +73,7 @@ export default function LandingPage() {
   </video>
 
   {/* Overlay (for readability) */}
-  <div className="absolute inset-0 bg-white/0"></div>
+  <div className="absolute inset-0 bg-black/60"></div>
 
   {/* Content */}
   <div className="relative container mx-auto px-6 py-20 md:py-32">
@@ -83,7 +83,7 @@ export default function LandingPage() {
         <span className="text-sm">Building the future of digital excellence</span>
       </div>
 
-      <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+      <h1 className="text-5xl text-white md:text-7xl font-bold mb-6 leading-tight">
         Build Skills.
         <span className="block">Build Brands.</span>
       </h1>
