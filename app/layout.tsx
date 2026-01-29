@@ -14,7 +14,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Code Illustrated",
-  description: "Master programming through visual learning and hands-on practice",
+  description: "We build brands and skills.",
+  icons: {
+    icon: "/logo-portrait.jpeg",
+    shortcut: "/logo-portrait.jpeg",
+    apple: "/logo-portrait.jpeg",
+  },
 };
 
 export default function RootLayout({
