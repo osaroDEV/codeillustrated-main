@@ -16,7 +16,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white text-black">
       {/* Navigation */}
-      <nav className="container mx-auto px-6 py-6 border-b border-gray-200">
+      <nav className="container mx-auto px-6 border-b border-gray-200">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <img
@@ -24,7 +24,7 @@ export default function LandingPage() {
               alt="CIS Logo"
               className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-300"
             />
-            <span className="text-2xl font-bold">Code Illustrated</span>
+            <span className="text-xl md:text-2xl font-bold">Code Illustrated</span>
           </Link>
 
           <div className="hidden md:flex space-x-8 text-sm">
@@ -131,7 +131,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-gray-200 py-12">
         <div className="container mx-auto px-6">
-          <div className="w-1/2 gap-8 mb-8">
+          <div className="w-full sm:w-1/2 gap-8 mb-8">
             <div className="w-full">
               <Link href="/" className="mb-4 flex items-center">
                 <img
@@ -139,7 +139,7 @@ export default function LandingPage() {
                   alt="CIS Logo"
                   className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-300"
                 />
-                <span className="text-2xl font-bold">Code Illustrated</span>
+                <span className="md:text-2xl font-bold">Code Illustrated</span>
               </Link>
               <p className="text-gray-600 text-sm">
                 Empowering the next generation of digital creators and
