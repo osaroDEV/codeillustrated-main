@@ -24,7 +24,7 @@ export default function LandingPage() {
               alt="CIS Logo"
               className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-300"
             />
-            <span className="text-xl md:text-2xl font-bold">Code Illustrated</span>
+            <span className="md:text-2xl font-bold">Code Illustrated</span>
           </Link>
 
           <div className="hidden md:flex space-x-8 text-sm">
